@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Module 3 - Act 7</title>
+    </head>
+
+    <body>
+
+        <!-- MODAL -->
+        <div class="modal fade" id="exampleModal" data-bs-backdrop="true" data-bs-keyboard="true" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-toggle="modal">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+                <img src="img/AlexisDelaTorre-m3-Act6.gif" class="img-fluid" alt="promotional gif">  
+            </div>
+        </div>
+
+        <!-- NAV BAR -->
+        <nav class="navbar px-5 navbar-expand-lg navbar-custom-bgcolor bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/ikigai-Logo-white.png" alt="brand logo" width="150px" class="brand-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse lead" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-custom-fontColor mx-auto mb-lg-0 text-sm">
+                        <li class="nav-item">
+                            <a class="nav-link px-2" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a a class="nav-link" aria-current="page" href="#">
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav-item px-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu text-md" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">A DLT</a></li>
+                                <li><a class="dropdown-item" href="#">Wabi-Sabi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form role="form">
+                        <div class="form-group has-search">
+                            <span class="fa fa-search form-control-feedback"></span>
+                            <input type="text" class="form-control rounded-pill" placeholder="Search here">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+      
+        <!--CAROUSEL-->
+        <div class="container">
+            <div class="row">
+                <div class="col mt-5 mb-5">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://images.pexels.com/photos/1483064/pexels-photo-1483064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.pexels.com/photos/3232545/pexels-photo-3232545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.pexels.com/photos/3443493/pexels-photo-3443493.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://images.pexels.com/photos/1229846/pexels-photo-1229846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh4S-ymF7hzysAqS8L2m9nKd6WIa3RExry3w&usqp=CAU"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>About</h6>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ad
+                            consequatur
+                            vitae corporis maiores ducimus esse sint quasi necessitatibus, explicabo adipisci vero tenetur
+                            corrupti totam enim quisquam dignissimos! Nam, deleniti.</p>
+                    </div>
+        
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Policies</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Terms of Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Disclaimer</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Store</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Brand Copyright &copy; 2021 - All rights reserved
+                        </p>
+                    </div>
+        
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+        <script>
+
+        let modal = new bootstrap.Modal(document.querySelector("#exampleModal"), {
+        })
+
+        modal.show()
+
+        </script>
+    </body>
+</html>
